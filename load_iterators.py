@@ -4,6 +4,7 @@ from skimage.data import imread
 import pandas as pd
 import numpy as np
 from keras.preprocessing.image import load_img, img_to_array, Iterator, ImageDataGenerator
+from keras import backend as K
 
 #LOAD THE REAL DATA WITH KERAS
 # I DON'T REALLY KNOW HOW THIS WORKS, BUT IT DOES
